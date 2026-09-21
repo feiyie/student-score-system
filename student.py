@@ -1,4 +1,6 @@
 def show_student():
-    print("Student Score System")
-if __name__ == '__main__':
+    gender = input("请输入学生性别：")
+    print(f"学生性别：{gender}")
+
+if __name__ == "__main__":
     show_student()
