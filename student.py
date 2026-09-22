@@ -1,4 +1,6 @@
 def show_student():
+    student_id = input("请输入学生学号：")
+    print(f"录入成功！学生学号：{student_id}")
     gender = input("请输入学生性别：")
     print(f"学生性别：{gender}")
     name = input("请输入学生姓名：")
